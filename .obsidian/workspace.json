@@ -11,14 +11,15 @@
             "id": "9552975d926e5201",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "hola alvaro cabronazo.md",
-                "mode": "source",
-                "source": false
+                "aFile": "hola alvaro cabronazo.md",
+                "bFile": "hola alvaro cabronazo.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "hola alvaro cabronazo"
+              "icon": "diff",
+              "title": "Diff: hola alvaro cabronazo  (Index)"
             }
           }
         ]
@@ -199,9 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9552975d926e5201",
+  "active": "bc9b7d978c79525e",
   "lastOpenFiles": [
     "hola alvaro cabronazo.md",
+    "hola alvaro cabronazoscf.md",
     "cliente-pago.md",
     "requisitos.md",
     "entidades/destinos.md",
