@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da384ddaf9ba87bf",
+            "id": "9552975d926e5201",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "requisitos.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "requisitos"
+              "title": "New tab"
             }
           }
         ]
@@ -83,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4b49bdcf7f0005db",
@@ -200,12 +195,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc9b7d978c79525e",
+  "active": "e30d74670a16fcea",
   "lastOpenFiles": [
-    "entidades/pago.md",
-    "requisitos.md",
-    "Untitled.base",
     "cliente-pago.md",
+    "requisitos.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "entidades/pago.md",
+    "Untitled.base",
     "relaciones",
     "entidades/clientes.md",
     "entidades/transporte.md",
