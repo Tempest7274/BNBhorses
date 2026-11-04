@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf984eccc120c1e",
+        "id": "a7c4702a8ccfd386",
         "type": "tabs",
         "children": [
           {
-            "id": "9552975d926e5201",
+            "id": "0e857166d2e99fb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -189,18 +189,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9552975d926e5201",
+  "active": "0e857166d2e99fb0",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "2026-11-04.md",
     "Sin título.canvas",
     "hola alvaro cabronazoscf.md",
@@ -214,13 +215,26 @@
     "entidades/reserva.md",
     "entidades/trabajadores.md",
     "entidades/transporte.md",
+=======
+    "hola alvaro cabronazo.md",
+    "hola alvaro cabronazoscf.md",
+>>>>>>> origin/main
     "cliente-pago.md",
-    "hawwo.md",
+    "requisitos.md",
+    "entidades/destinos.md",
     "PILAR SUICIDATE PERRA.md",
+    "entidades/trabajadores.md",
+    "hawwo.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "entidades/pago.md",
+    "Untitled.base",
     "relaciones",
+    "entidades/clientes.md",
+    "entidades/transporte.md",
+    "entidades/alojamiento.md",
+    "entidades/proveedor.md",
+    "entidades/reserva.md",
     "entidades",
     "Welcome.md"
   ]
