@@ -11,14 +11,15 @@
             "id": "9552975d926e5201",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "entidades/destinos.md",
-                "mode": "source",
-                "source": false
+                "aFile": "hola alvaro cabronazo.md",
+                "bFile": "hola alvaro cabronazo.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "destinos"
+              "icon": "diff",
+              "title": "Diff: hola alvaro cabronazo  (Index)"
             }
           }
         ]
@@ -201,8 +202,9 @@
   },
   "active": "bc9b7d978c79525e",
   "lastOpenFiles": [
-    "PILAR SUICIDATE PERRA.md",
     "entidades/destinos.md",
+    "hola alvaro cabronazo.md",
+    "PILAR SUICIDATE PERRA.md",
     "entidades/trabajadores.md",
     "hawwo.md",
     "cliente-pago.md",
