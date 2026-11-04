@@ -1,1 +1,1 @@
-clientes y destino se juntasn
+[[clientes]] y [[destino]] se juntas
