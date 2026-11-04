@@ -4,3 +4,6 @@ dasda
 oscar gay wdawa daw
 
 eres racista
+alvaro gay
+
+# eres racista
