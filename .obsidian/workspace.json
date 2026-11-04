@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf984eccc120c1e",
+        "id": "a7c4702a8ccfd386",
         "type": "tabs",
         "children": [
           {
-            "id": "9552975d926e5201",
+            "id": "0e857166d2e99fb0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "hola alvaro cabronazo.md",
-                "bFile": "hola alvaro cabronazo.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "hola alvaro cabronazoscf.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: hola alvaro cabronazo  (Index)"
+              "icon": "lucide-file",
+              "title": "hola alvaro cabronazoscf"
             }
           }
         ]
@@ -200,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc9b7d978c79525e",
+  "active": "0e857166d2e99fb0",
   "lastOpenFiles": [
     "hola alvaro cabronazo.md",
     "hola alvaro cabronazoscf.md",
