@@ -11,28 +11,14 @@
             "id": "9552975d926e5201",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "hola alvaro cabronazo.md",
-                "bFile": "hola alvaro cabronazo.md",
-                "aRef": ""
+                "file": "hola alvaro cabronazo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: hola alvaro cabronazo  (Working Tree)"
-            }
-          },
-          {
-            "id": "36e79e2ebd448d58",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "hola alvaro cabronazo.md",
-                "bFile": "hola alvaro cabronazo.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: hola alvaro cabronazo  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "hola alvaro cabronazo"
             }
           }
         ]
@@ -215,23 +201,23 @@
   },
   "active": "9552975d926e5201",
   "lastOpenFiles": [
-    "hola alvaro cabronazo.md",
-    "entidades/destinos.md",
-    "hawwo.md",
-    "entidades/alojamiento.md",
-    "entidades/clientes.md",
-    "cliente-pago.md",
     "requisitos.md",
+    "hola alvaro cabronazo.md",
     "Untitled.base",
-    "PILAR SUICIDATE PERRA.md",
+    "entidades/alojamiento.md",
+    "entidades/destinos.md",
+    "entidades/clientes.md",
+    "entidades/proveedor.md",
+    "entidades/reserva.md",
     "entidades/trabajadores.md",
+    "entidades/transporte.md",
+    "cliente-pago.md",
+    "hawwo.md",
+    "PILAR SUICIDATE PERRA.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "entidades/pago.md",
     "relaciones",
-    "entidades/transporte.md",
-    "entidades/proveedor.md",
-    "entidades/reserva.md",
     "entidades",
     "Welcome.md"
   ]
