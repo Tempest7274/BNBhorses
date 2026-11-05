@@ -25,14 +25,14 @@
             "id": "ca043eb4c06497a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "transporte.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Untitled.base",
+                "bFile": "Untitled.base",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "transporte"
+              "icon": "diff",
+              "title": "Diff: Untitled.base  (Working Tree)"
             }
           }
         ],
@@ -216,21 +216,22 @@
   },
   "active": "ca043eb4c06497a6",
   "lastOpenFiles": [
-    "entidades/alojamiento.md",
-    "transporte.md",
     "Untitled.base",
+    "UwU.md",
+    "requisitos.md",
+    "cliente-pago.md",
+    "transporte.md",
+    "entidades/alojamiento.md",
     "2026-11-04.md",
     "Sin título.canvas",
     "hawwo.md",
     "entidades/destinos.md",
     "entidades/clientes.md",
     "hola alvaro cabronazoscf.md",
-    "requisitos.md",
     "entidades/proveedor.md",
     "entidades/reserva.md",
     "entidades/trabajadores.md",
     "entidades/transporte.md",
-    "cliente-pago.md",
     "PILAR SUICIDATE PERRA.md",
     "Untitled 2.base",
     "Untitled 1.base",
