@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "# Logical Schema – Hotel App.md",
-                "mode": "source",
-                "source": false
+                "file": "Logical Schema Hotel App.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "# Logical Schema – Hotel App"
+              "title": "Logical Schema Hotel App"
             }
           }
         ],
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4b49bdcf7f0005db",
@@ -218,7 +219,7 @@
   "active": "2b4a0f85a664989d",
   "lastOpenFiles": [
     "documentacion.md",
-    "# Logical Schema – Hotel App.md",
+    "Logical Schema Hotel App.md",
     "UwU",
     "requisitos.md",
     "entidades/trabajadores.md",

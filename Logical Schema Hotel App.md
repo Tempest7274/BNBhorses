@@ -1,43 +1,41 @@
+**PK** = primary key, *FK* = foreign key, */attr* = derived attribute (not stored)
 
+## Tables
 
-  
-**PK** = primary key, *FK* = foreign key  
-  
-## Tables  
-  
-**Client**(**DNI**, Nombre, Apellidos, telefono)  
-- The composite `Nombre` is flattened into `Nombre` and `Apellidos`.  
-  
-**Hotel**(**id**, Nombre, telefono, estrellas, Direccion, Pais)  
-  
-**RoomType**(**tipo**, capacidad, descripcion)  
-  
-**Room**(**id_hotel**, **Numero**, Planta, precio, *tipo*)  
-- `id_hotel` → Hotel.id, NOT NULL. Room is a weak entity, so the hotel's key is part of its PK.  
-- `tipo` → RoomType.tipo, NOT NULL.  
-  
-**Reservation**(**id_reservation**, date, number_of_days, *DNI*)  
-- `DNI` → Client.DNI, NOT NULL.  
-  
-**Payment**(**id_payment**, amount, payment_date, payment_method, *id_reservation*)  
-- `id_reservation` → Reservation.id_reservation, NOT NULL.  
-  
-**Reserv_ROOM**(**id_reservation**, **id_hotel**, **Numero**)  
-- Associative entity. Its PK is the combination of the keys of the entities it links.  
-- `id_reservation` → Reservation.id_reservation.  
-- `(id_hotel, Numero)` → Room.(id_hotel, Numero).  
-  
-## Relationship mapping  
-  
-| Relationship | Cardinality | Becomes |  
-|---|---|---|  
-| Hotel *holds* Room | 1 : N, identifying | `id_hotel` in Room's PK |  
-| RoomType *type is* Room | 1 : N | `tipo` FK in Room |  
-| Client *makes* Reservation | 1 : N | `DNI` FK in Reservation |  
-| Reservation *receives* Payment | 1 : N | `id_reservation` FK in Payment |  
-| Reservation *contains* Reserv_ROOM | 1 : N | FK in Reserv_ROOM |  
-| Reserv_ROOM *included in* Room | N : 1 | FK in Reserv_ROOM |  
-  
-## Notes  
-- `date` is a reserved word in most DBMSs.  
-- `number_of_days` needs underscores because the diagram's version has spaces.
+**client**(**nationalId**, firstName, lastName, phone)
+- The composite `name` is flattened into `firstName` and `lastName`.
+
+**hotel**(**hotelId**, name, phone, stars, address, country)
+
+**roomType**(**typeName**, capacity, description)
+
+**room**(**hotelId**, **roomNumber**, floor, price, *typeName*)
+- `hotelId` → hotel.hotelId, NOT NULL. Room is a weak entity, so the hotel's key is part of its PK.
+- `typeName` → roomType.typeName, NOT NULL.
+
+**reservation**(**reservationId**, bookingDate, checkInDate, checkOutDate, */numberOfDays*, *nationalId*)
+- `/numberOfDays` is derived: `checkOutDate - checkInDate`.
+- `nationalId` → client.nationalId, NOT NULL.
+
+**payment**(**paymentId**, amount, paymentDate, paymentMethod, *reservationId*)
+- `reservationId` → reservation.reservationId, NOT NULL.
+
+**reservationRoom**(**reservationId**, **hotelId**, **roomNumber**)
+- Associative entity. Its PK is the combination of the keys of the entities it links.
+- `reservationId` → reservation.reservationId.
+- `(hotelId, roomNumber)` → room.(hotelId, roomNumber).
+
+## Relationship mapping
+
+| Relationship | Cardinality | Becomes |
+|---|---|---|
+| hotel *holds* room | 1 : N, identifying | `hotelId` in room's PK |
+| roomType *hasType* room | 1 : N | `typeName` FK in room |
+| client *makes* reservation | 1 : N | `nationalId` FK in reservation |
+| reservation *receives* payment | 1 : N | `reservationId` FK in payment |
+| reservation *contains* reservationRoom | 1 : N | FK in reservationRoom |
+| reservationRoom *includedIn* room | N : 1 | FK in reservationRoom |
+
+## Notes
+- `checkOutDate` must be after `checkInDate`.
+- `numberOfDays` is not stored; compute it in queries from the two dates.
