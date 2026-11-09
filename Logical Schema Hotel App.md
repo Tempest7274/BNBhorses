@@ -1,5 +1,5 @@
 
-# Logical Schema – Hotel App  
+
   
 **PK** = primary key, *FK* = foreign key  
   
