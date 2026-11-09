@@ -27,14 +27,14 @@
 
 ## Relationship mapping
 
-| Relationship | Cardinality | Becomes |
-|---|---|---|
-| hotel *holds* room | 1 : N, identifying | `hotelId` in room's PK |
-| roomType *hasType* room | 1 : N | `typeName` FK in room |
-| client *makes* reservation | 1 : N | `nationalId` FK in reservation |
-| reservation *receives* payment | 1 : N | `reservationId` FK in payment |
-| reservation *contains* reservationRoom | 1 : N | FK in reservationRoom |
-| reservationRoom *includedIn* room | N : 1 | FK in reservationRoom |
+| Relationship                           | Cardinality        | Becomes                        |
+| -------------------------------------- | ------------------ | ------------------------------ |
+| hotel *holds* room                     | 1 : N, identifying | `hotelId` in room's PK         |
+| roomType *hasType* room                | 1 : N              | `typeName` FK in room          |
+| client *makes* reservation             | 1 : N              | `nationalId` FK in reservation |
+| reservation *receives* payment         | 1 : N              | `reservationId` FK in payment  |
+| reservation *contains* reservationRoom | 1 : N              | FK in reservationRoom          |
+| reservationRoom *includedIn* room      | N : 1              | FK in reservationRoom          |
 
 ## Notes
 - `checkOutDate` must be after `checkInDate`.
