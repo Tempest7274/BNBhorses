@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ejercicio datamodeler trabajo" id="C74C5B54-64A3-6294-E781-FA344C9E9FAF" version="3.5">
+<createdBy>Oscar</createdBy>
+<createdTime>2026-11-11 22:48:55 UTC</createdTime>
+<ownerDesignName>ejercicio datamodeler trabajo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C74C5B54-64A3-6294-E781-FA344C9E9FAF</designId>
+</OSDM_Design>
