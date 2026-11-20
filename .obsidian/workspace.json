@@ -25,14 +25,14 @@
             "id": "ca043eb4c06497a6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Logical Schema Hotel App.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Logical Schema Hotel App"
             }
           }
         ],
@@ -216,10 +216,15 @@
   },
   "active": "ca043eb4c06497a6",
   "lastOpenFiles": [
+    "PILAR ESCORIA MAL PARIDA PUDRETE EN EL INFIERNO!! HIJA DE PUTA!!!.md",
+    "Logical Schema Hotel App.md",
+    "documentacion.md",
+    "requisitos.md",
+    "ER/Untitled.erd",
+    "ER",
     "transporte.md",
     "Untitled.base",
     "UwU.md",
-    "requisitos.md",
     "cliente-pago.md",
     "entidades/alojamiento.md",
     "2026-11-04.md",

@@ -1,0 +1,484 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "originX": 0,
+    "originY": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "lockSettings": 63
+  },
+  "doc": {
+    "tableIds": [
+      "03h7ghsup3icukhuu7r2bs8zl",
+      "03h7ghsup8x487ibt5j92g8si",
+      "03h7ghsup8x487ibt5y9zup9f",
+      "03h7ghsup8x487ibt66hh9wrb",
+      "03h7ghsup8x487ibt6gszfile",
+      "03h7ghsup8x487ibt6t6lhsl2",
+      "03h7ghsupedqfu5f6w81hioz4"
+    ],
+    "relationshipIds": [
+      "03h7ghsupedqfu5f6wezvk966",
+      "03h7ghsupedqfu5f6whalhkxk",
+      "03h7ghsupedqfu5f6wj8c6pbe",
+      "03h7ghsupedqfu5f6wlgwntij",
+      "03h7ghsupjy3xgqsfonb5kxae",
+      "03h7ghsupjy3xgqsfop6ga50n"
+    ]
+  },
+  "collections": {
+    "tableEntities": {
+      "03h7ghsup3icukhuu7r2bs8zl": {
+        "id": "03h7ghsup3icukhuu7r2bs8zl",
+        "name": "client",
+        "columnIds": [
+          "03h7ghsup3icukhuu7ttsaqde",
+          "03h7ghsup3icukhuu7uql9ekx",
+          "03h7ghsup3icukhuu7x1r6cfn",
+          "03h7ghsup8x487ibt5hsoj30k"
+        ],
+        "ui": {
+          "x": 57,
+          "y": 50
+        }
+      },
+      "03h7ghsup8x487ibt5j92g8si": {
+        "id": "03h7ghsup8x487ibt5j92g8si",
+        "name": "hotel",
+        "columnIds": [
+          "03h7ghsup8x487ibt5lsz60w1",
+          "03h7ghsup8x487ibt5ncrfi34",
+          "03h7ghsup8x487ibt5p64xntz",
+          "03h7ghsup8x487ibt5rq8qy6d",
+          "03h7ghsup8x487ibt5ttsh746",
+          "03h7ghsup8x487ibt5vuk0h44"
+        ],
+        "ui": {
+          "x": 59,
+          "y": 256
+        }
+      },
+      "03h7ghsup8x487ibt5y9zup9f": {
+        "id": "03h7ghsup8x487ibt5y9zup9f",
+        "name": "roomType",
+        "columnIds": [
+          "03h7ghsup8x487ibt5ypv4r4z",
+          "03h7ghsup8x487ibt62iva66g",
+          "03h7ghsup8x487ibt62sah4mj"
+        ],
+        "ui": {
+          "x": 50,
+          "y": 510
+        }
+      },
+      "03h7ghsup8x487ibt66hh9wrb": {
+        "id": "03h7ghsup8x487ibt66hh9wrb",
+        "name": "room",
+        "columnIds": [
+          "03h7ghsup8x487ibt6893sxrj",
+          "03h7ghsup8x487ibt69xnjved",
+          "03h7ghsup8x487ibt6bsbbg3g",
+          "03h7ghsup8x487ibt6cjsf8ie",
+          "03h7ghsup8x487ibt6gc5g3l4"
+        ],
+        "ui": {
+          "x": 632,
+          "y": 371
+        }
+      },
+      "03h7ghsup8x487ibt6gszfile": {
+        "id": "03h7ghsup8x487ibt6gszfile",
+        "name": "reservation",
+        "columnIds": [
+          "03h7ghsup8x487ibt6jbnjpmu",
+          "03h7ghsup8x487ibt6ktj7jjv",
+          "03h7ghsup8x487ibt6ms1nej1",
+          "03h7ghsup8x487ibt6pxtr3nl",
+          "03h7ghsup8x487ibt6qcre7q7"
+        ],
+        "ui": {
+          "x": 632.6666666666666,
+          "y": 141
+        }
+      },
+      "03h7ghsup8x487ibt6t6lhsl2": {
+        "id": "03h7ghsup8x487ibt6t6lhsl2",
+        "name": "payment",
+        "columnIds": [
+          "03h7ghsup8x487ibt6uhx6w9s",
+          "03h7ghsup8x487ibt6xb9kyx2",
+          "03h7ghsup8x487ibt6yp6gwc6",
+          "03h7ghsupedqfu5f6w4p70o18",
+          "03h7ghsupedqfu5f6w6ier1va"
+        ],
+        "ui": {
+          "x": 1236,
+          "y": 165
+        }
+      },
+      "03h7ghsupedqfu5f6w81hioz4": {
+        "id": "03h7ghsupedqfu5f6w81hioz4",
+        "name": "reservationRoom",
+        "columnIds": [
+          "03h7ghsupedqfu5f6w9hsmrj9",
+          "03h7ghsupedqfu5f6wbea5pg4",
+          "03h7ghsupedqfu5f6wds8vgx3"
+        ],
+        "ui": {
+          "x": 1236,
+          "y": 395
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "03h7ghsup3icukhuu7ttsaqde": {
+        "id": "03h7ghsup3icukhuu7ttsaqde",
+        "tableId": "03h7ghsup3icukhuu7r2bs8zl",
+        "name": "nationalId",
+        "dataType": "VARCHAR(20)",
+        "options": 10
+      },
+      "03h7ghsup3icukhuu7uql9ekx": {
+        "id": "03h7ghsup3icukhuu7uql9ekx",
+        "tableId": "03h7ghsup3icukhuu7r2bs8zl",
+        "name": "firstName",
+        "dataType": "VARCHAR(100)",
+        "options": 8
+      },
+      "03h7ghsup3icukhuu7x1r6cfn": {
+        "id": "03h7ghsup3icukhuu7x1r6cfn",
+        "tableId": "03h7ghsup3icukhuu7r2bs8zl",
+        "name": "lastName",
+        "dataType": "VARCHAR(100)",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt5hsoj30k": {
+        "id": "03h7ghsup8x487ibt5hsoj30k",
+        "tableId": "03h7ghsup3icukhuu7r2bs8zl",
+        "name": "phone",
+        "dataType": "VARCHAR(20)",
+        "options": 0
+      },
+      "03h7ghsup8x487ibt5lsz60w1": {
+        "id": "03h7ghsup8x487ibt5lsz60w1",
+        "tableId": "03h7ghsup8x487ibt5j92g8si",
+        "name": "hotelId",
+        "dataType": "INT",
+        "options": 10
+      },
+      "03h7ghsup8x487ibt5ncrfi34": {
+        "id": "03h7ghsup8x487ibt5ncrfi34",
+        "tableId": "03h7ghsup8x487ibt5j92g8si",
+        "name": "name",
+        "dataType": "VARCHAR(100)",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt5p64xntz": {
+        "id": "03h7ghsup8x487ibt5p64xntz",
+        "tableId": "03h7ghsup8x487ibt5j92g8si",
+        "name": "phone",
+        "dataType": "VARCHAR(20)",
+        "options": 0
+      },
+      "03h7ghsup8x487ibt5rq8qy6d": {
+        "id": "03h7ghsup8x487ibt5rq8qy6d",
+        "tableId": "03h7ghsup8x487ibt5j92g8si",
+        "name": "stars",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h7ghsup8x487ibt5ttsh746": {
+        "id": "03h7ghsup8x487ibt5ttsh746",
+        "tableId": "03h7ghsup8x487ibt5j92g8si",
+        "name": "address",
+        "dataType": "VARCHAR(200)",
+        "options": 0
+      },
+      "03h7ghsup8x487ibt5vuk0h44": {
+        "id": "03h7ghsup8x487ibt5vuk0h44",
+        "tableId": "03h7ghsup8x487ibt5j92g8si",
+        "name": "country",
+        "dataType": "VARCHAR(100)",
+        "options": 0
+      },
+      "03h7ghsup8x487ibt5ypv4r4z": {
+        "id": "03h7ghsup8x487ibt5ypv4r4z",
+        "tableId": "03h7ghsup8x487ibt5y9zup9f",
+        "name": "typeName",
+        "dataType": "VARCHAR(50)",
+        "options": 10
+      },
+      "03h7ghsup8x487ibt62iva66g": {
+        "id": "03h7ghsup8x487ibt62iva66g",
+        "tableId": "03h7ghsup8x487ibt5y9zup9f",
+        "name": "capacity",
+        "dataType": "INT",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt62sah4mj": {
+        "id": "03h7ghsup8x487ibt62sah4mj",
+        "tableId": "03h7ghsup8x487ibt5y9zup9f",
+        "name": "description",
+        "dataType": "VARCHAR(255)",
+        "options": 0
+      },
+      "03h7ghsup8x487ibt6893sxrj": {
+        "id": "03h7ghsup8x487ibt6893sxrj",
+        "tableId": "03h7ghsup8x487ibt66hh9wrb",
+        "name": "hotelId",
+        "dataType": "INT",
+        "options": 10
+      },
+      "03h7ghsup8x487ibt69xnjved": {
+        "id": "03h7ghsup8x487ibt69xnjved",
+        "tableId": "03h7ghsup8x487ibt66hh9wrb",
+        "name": "roomNumber",
+        "dataType": "INT",
+        "options": 10
+      },
+      "03h7ghsup8x487ibt6bsbbg3g": {
+        "id": "03h7ghsup8x487ibt6bsbbg3g",
+        "tableId": "03h7ghsup8x487ibt66hh9wrb",
+        "name": "floor",
+        "dataType": "INT",
+        "options": 0
+      },
+      "03h7ghsup8x487ibt6cjsf8ie": {
+        "id": "03h7ghsup8x487ibt6cjsf8ie",
+        "tableId": "03h7ghsup8x487ibt66hh9wrb",
+        "name": "price",
+        "dataType": "DECIMAL(10,2)",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt6gc5g3l4": {
+        "id": "03h7ghsup8x487ibt6gc5g3l4",
+        "tableId": "03h7ghsup8x487ibt66hh9wrb",
+        "name": "typeName",
+        "dataType": "VARCHAR(50)",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt6jbnjpmu": {
+        "id": "03h7ghsup8x487ibt6jbnjpmu",
+        "tableId": "03h7ghsup8x487ibt6gszfile",
+        "name": "reservationId",
+        "dataType": "INT",
+        "options": 10
+      },
+      "03h7ghsup8x487ibt6ktj7jjv": {
+        "id": "03h7ghsup8x487ibt6ktj7jjv",
+        "tableId": "03h7ghsup8x487ibt6gszfile",
+        "name": "bookingDate",
+        "dataType": "DATE",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt6ms1nej1": {
+        "id": "03h7ghsup8x487ibt6ms1nej1",
+        "tableId": "03h7ghsup8x487ibt6gszfile",
+        "name": "checkInDate",
+        "dataType": "DATE",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt6pxtr3nl": {
+        "id": "03h7ghsup8x487ibt6pxtr3nl",
+        "tableId": "03h7ghsup8x487ibt6gszfile",
+        "name": "checkOutDate",
+        "dataType": "DATE",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt6qcre7q7": {
+        "id": "03h7ghsup8x487ibt6qcre7q7",
+        "tableId": "03h7ghsup8x487ibt6gszfile",
+        "name": "nationalId",
+        "dataType": "VARCHAR(20)",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt6uhx6w9s": {
+        "id": "03h7ghsup8x487ibt6uhx6w9s",
+        "tableId": "03h7ghsup8x487ibt6t6lhsl2",
+        "name": "paymentId",
+        "dataType": "INT",
+        "options": 10
+      },
+      "03h7ghsup8x487ibt6xb9kyx2": {
+        "id": "03h7ghsup8x487ibt6xb9kyx2",
+        "tableId": "03h7ghsup8x487ibt6t6lhsl2",
+        "name": "amount",
+        "dataType": "DECIMAL(10,2)",
+        "options": 8
+      },
+      "03h7ghsup8x487ibt6yp6gwc6": {
+        "id": "03h7ghsup8x487ibt6yp6gwc6",
+        "tableId": "03h7ghsup8x487ibt6t6lhsl2",
+        "name": "paymentDate",
+        "dataType": "DATE",
+        "options": 8
+      },
+      "03h7ghsupedqfu5f6w4p70o18": {
+        "id": "03h7ghsupedqfu5f6w4p70o18",
+        "tableId": "03h7ghsup8x487ibt6t6lhsl2",
+        "name": "paymentMethod",
+        "dataType": "VARCHAR(30)",
+        "options": 0
+      },
+      "03h7ghsupedqfu5f6w6ier1va": {
+        "id": "03h7ghsupedqfu5f6w6ier1va",
+        "tableId": "03h7ghsup8x487ibt6t6lhsl2",
+        "name": "reservationId",
+        "dataType": "INT",
+        "options": 8
+      },
+      "03h7ghsupedqfu5f6w9hsmrj9": {
+        "id": "03h7ghsupedqfu5f6w9hsmrj9",
+        "tableId": "03h7ghsupedqfu5f6w81hioz4",
+        "name": "reservationId",
+        "dataType": "INT",
+        "options": 10
+      },
+      "03h7ghsupedqfu5f6wbea5pg4": {
+        "id": "03h7ghsupedqfu5f6wbea5pg4",
+        "tableId": "03h7ghsupedqfu5f6w81hioz4",
+        "name": "hotelId",
+        "dataType": "INT",
+        "options": 10
+      },
+      "03h7ghsupedqfu5f6wds8vgx3": {
+        "id": "03h7ghsupedqfu5f6wds8vgx3",
+        "tableId": "03h7ghsupedqfu5f6w81hioz4",
+        "name": "roomNumber",
+        "dataType": "INT",
+        "options": 10
+      }
+    },
+    "relationshipEntities": {
+      "03h7ghsupedqfu5f6wezvk966": {
+        "id": "03h7ghsupedqfu5f6wezvk966",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h7ghsup8x487ibt5j92g8si",
+          "columnIds": [
+            "03h7ghsup8x487ibt5lsz60w1"
+          ]
+        },
+        "end": {
+          "tableId": "03h7ghsup8x487ibt66hh9wrb",
+          "columnIds": [
+            "03h7ghsup8x487ibt6893sxrj"
+          ]
+        }
+      },
+      "03h7ghsupedqfu5f6whalhkxk": {
+        "id": "03h7ghsupedqfu5f6whalhkxk",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h7ghsup8x487ibt5y9zup9f",
+          "columnIds": [
+            "03h7ghsup8x487ibt5ypv4r4z"
+          ]
+        },
+        "end": {
+          "tableId": "03h7ghsup8x487ibt66hh9wrb",
+          "columnIds": [
+            "03h7ghsup8x487ibt6gc5g3l4"
+          ]
+        }
+      },
+      "03h7ghsupedqfu5f6wj8c6pbe": {
+        "id": "03h7ghsupedqfu5f6wj8c6pbe",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h7ghsup3icukhuu7r2bs8zl",
+          "columnIds": [
+            "03h7ghsup3icukhuu7ttsaqde"
+          ]
+        },
+        "end": {
+          "tableId": "03h7ghsup8x487ibt6gszfile",
+          "columnIds": [
+            "03h7ghsup8x487ibt6qcre7q7"
+          ]
+        }
+      },
+      "03h7ghsupedqfu5f6wlgwntij": {
+        "id": "03h7ghsupedqfu5f6wlgwntij",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h7ghsup8x487ibt6gszfile",
+          "columnIds": [
+            "03h7ghsup8x487ibt6jbnjpmu"
+          ]
+        },
+        "end": {
+          "tableId": "03h7ghsup8x487ibt6t6lhsl2",
+          "columnIds": [
+            "03h7ghsupedqfu5f6w6ier1va"
+          ]
+        }
+      },
+      "03h7ghsupjy3xgqsfonb5kxae": {
+        "id": "03h7ghsupjy3xgqsfonb5kxae",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h7ghsup8x487ibt6gszfile",
+          "columnIds": [
+            "03h7ghsup8x487ibt6jbnjpmu"
+          ]
+        },
+        "end": {
+          "tableId": "03h7ghsupedqfu5f6w81hioz4",
+          "columnIds": [
+            "03h7ghsupedqfu5f6w9hsmrj9"
+          ]
+        }
+      },
+      "03h7ghsupjy3xgqsfop6ga50n": {
+        "id": "03h7ghsupjy3xgqsfop6ga50n",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "03h7ghsup8x487ibt66hh9wrb",
+          "columnIds": [
+            "03h7ghsup8x487ibt6893sxrj",
+            "03h7ghsup8x487ibt69xnjved"
+          ]
+        },
+        "end": {
+          "tableId": "03h7ghsupedqfu5f6w81hioz4",
+          "columnIds": [
+            "03h7ghsupedqfu5f6wbea5pg4",
+            "03h7ghsupedqfu5f6wds8vgx3"
+          ]
+        }
+      }
+    }
+  }
+}
