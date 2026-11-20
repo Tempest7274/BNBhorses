@@ -25,14 +25,14 @@
             "id": "ca043eb4c06497a6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "entidades/trabajadores.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "trabajadores"
             }
           }
         ],
@@ -216,19 +216,19 @@
   },
   "active": "ca043eb4c06497a6",
   "lastOpenFiles": [
+    "entidades/transporte.md",
+    "2026-11-11.md",
+    "cliente-pago.md",
+    "Sin título.base",
+    "Untitled.base",
+    "transporte.md",
+    "Sin título.canvas",
+    "requisitos.md",
     "entidades/reserva.md",
     "entidades/proveedor.md",
     "entidades/destinos.md",
     "entidades/clientes.md",
     "entidades/alojamiento.md",
-    "requisitos.md",
-    "cliente-pago.md",
-    "2026-11-11.md",
-    "Sin título.canvas",
-    "Sin título.base",
-    "transporte.md",
-    "Untitled.base",
-    "entidades/transporte.md",
     "2026-11-04.md",
     "hawwo.md",
     "hola alvaro cabronazoscf.md",
